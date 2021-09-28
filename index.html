@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vue Reactivity Action</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Reactivity Action
+    </header>
+      <section id="assignment">
+           <button v-on:click="add(5)">Add 5</button>
+           <button v-on:click="add(1)">Add 1</button>
+           <br>
+           <p>Result: {{ counter }}</p>
+      </section>
+      <script src="app.js"></script>
+</body>
+</html>
